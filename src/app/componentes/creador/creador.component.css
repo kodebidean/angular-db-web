@@ -1,0 +1,88 @@
+.form-container {
+  margin:24px 0;
+
+}
+
+.form-container .chose-container {
+  font-weight:bolder;
+
+  border-top-left-radius: 12%;
+  color: rgb(255, 228, 228);
+  background-color: #e62525d2;
+  width:30%;
+  display:flex;
+  position:relative;
+  flex-direction:column;
+  padding: 12px;
+  margin: auto;
+}
+
+.form-container .select-container {
+  font-weight:bolder;
+  border-bottom-right-radius: 12%;
+  color: rgb(255, 228, 228);
+  background-color: #e62525d2;
+  width:30%;
+  display:flex;
+  position:relative;
+  flex-direction:column;
+  padding: 12px;
+  margin: auto;
+}
+label{
+  font-size:24px;
+}
+
+
+.form-container .chose-container input, .form-container .select-container select {
+  width: 100%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:large;
+  transition:ease-in-out;
+}
+
+.form-container .chose-container input:hover, .form-container .chose-container select:hover{
+  background-color: #ddd;
+}
+
+.form-container .chose-container select option {
+  font-size:large;
+
+}
+
+.form-container .btn-container{
+  font-weight:bolder;
+  border-top-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  color: rgb(255, 228, 228);
+  background-color: #e62525d2;
+  width:30%;
+  display:flex;
+  position:relative;
+  flex-direction:column;
+  padding: 12px;
+  margin: 4px auto;
+}
+
+.form-container .btn-container button {
+  font-weight:bold;
+  font-size:1em;
+  width:50%;
+  margin:auto;
+  padding:8px;
+  border-radius:3rem;
+  background-color: rgb(0, 0, 109);
+  color:white;
+  transition:ease-in-out;
+}
+
+.form-container .btn-container button:hover {
+  cursor:pointer;
+  background-color: rgb(4, 4, 197);
+}
